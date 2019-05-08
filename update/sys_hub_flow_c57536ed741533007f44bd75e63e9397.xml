@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>empty_tank</internal_name>
+        <label_cache>[{"name":"MetricBase_1.event_time","label":"Trigger➛Time of Metric Event","type":"glide_date_time","base_type":"glide_date_time"},{"name":"MetricBase_1.current.name","label":"Trigger➛Tanks Record➛name","reference":"","reference_display":"name","type":"string","base_type":"string","parent_table_name":"x_snc_mbts_monitor_tanks","column_name":"name"},{"name":"MetricBase_1.current","label":"Trigger➛Tanks Record","reference":"x_snc_mbts_monitor_tanks","reference_display":"Tanks","type":"reference","base_type":"reference"},{"name":"67302f92-6ff4-4b39-8b40-dd1732359579.Table","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"67302f92-6ff4-4b39-8b40-dd1732359579.Record","label":"1.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"MetricBase_1.level","label":"Trigger➛Level","type":"integer","base_type":"integer"}]</label_cache>
+        <latest_snapshot>c1c93aa1745533007f44bd75e63e93f6</latest_snapshot>
+        <master_snapshot>c1c93aa1745533007f44bd75e63e93f6</master_snapshot>
+        <name>Empty Tank</name>
+        <outputs/>
+        <remote_trigger_id>d1c97aa1745533007f44bd75e63e9350</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 23:09:28</sys_created_on>
+        <sys_id>c57536ed741533007f44bd75e63e9397</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Empty Tank</sys_name>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_hub_flow_c57536ed741533007f44bd75e63e9397</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 23:28:19</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=c57536ed741533007f44bd75e63e9397"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c57536ed741533007f44bd75e63e9397"/>
+</record_update>

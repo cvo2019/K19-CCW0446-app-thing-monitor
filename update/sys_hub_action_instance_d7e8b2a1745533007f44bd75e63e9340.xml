@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value=" Clogged Pump">29f73e61745533007f44bd75e63e9389</flow>
+        <order>1.1</order>
+        <parent_ui_id>97cb572d-9cea-45b7-a52e-7e2af66dd198</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 23:24:38</sys_created_on>
+        <sys_id>d7e8b2a1745533007f44bd75e63e9340</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MetricBase Thing Monitor" source="x_snc_mbts_monitor">d329ed9013815700178e7f176144b0aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MetricBase Thing Monitor">d329ed9013815700178e7f176144b0aa</sys_scope>
+        <sys_update_name>sys_hub_action_instance_d7e8b2a1745533007f44bd75e63e9340</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 23:27:31</sys_updated_on>
+        <ui_id>575fe352-9b6e-4cdc-931f-48e25333f931</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d7e8b2a1745533007f44bd75e63e9340"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d7e8b2a1745533007f44bd75e63e9340</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 23:24:38</sys_created_on>
+        <sys_id>17e8b2a1745533007f44bd75e63e9345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 23:24:38</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">957cdff1531003003bf1d9109ec58753</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d7e8b2a1745533007f44bd75e63e9340</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 23:27:30</sys_created_on>
+        <sys_id>1d99b6a1745533007f44bd75e63e936d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 23:27:30</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d7e8b2a1745533007f44bd75e63e9340"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>d7e8b2a1745533007f44bd75e63e9340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 23:24:38</sys_created_on>
+        <sys_id>93e8b2a1745533007f44bd75e63e9345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 23:24:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value>short_description= Clogged pump!^description={{MetricBase_1.current.name}}is clogged!.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>d7e8b2a1745533007f44bd75e63e9340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 23:27:30</sys_created_on>
+        <sys_id>9999b6a1745533007f44bd75e63e936d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 23:27:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>short_description= Clogged pump!^description={{MetricBase_1.current.name}}is clogged!.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>d7e8b2a1745533007f44bd75e63e9340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 23:27:30</sys_created_on>
+        <sys_id>d599b6a1745533007f44bd75e63e936d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 23:27:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>d7e8b2a1745533007f44bd75e63e9340</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-08 23:24:38</sys_created_on>
+        <sys_id>dfe8b2a1745533007f44bd75e63e9344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-08 23:24:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f9b1ff1531003003bf1d9109ec58775</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

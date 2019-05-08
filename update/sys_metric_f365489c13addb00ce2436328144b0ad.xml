@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metric">
     <sys_metric action="INSERT_OR_UPDATE">
         <auto_promote>false</auto_promote>
+        <compact_aggregator/>
         <dv_aggregator>last</dv_aggregator>
         <dv_resample_hr>1</dv_resample_hr>
         <element>flow</element>
